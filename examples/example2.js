@@ -20,12 +20,12 @@ module.exports = {
         let Target = interaction.options.getMember("member");
         let Executer = interaction.user;
         let data = await rga.getGif('kiss');
-        let HugEmbed = new MessageEmbed()
+        let kissEmbed = new MessageEmbed()
         .setColor('#000000')
         .setDescription(`**${Executer} kisses ${Target}**`)
         .setImage(data)
         .setTimestamp()
-        console.log(data);
+        console.log(data); // this isnt mandatory btw.
       
        if(Target.id === Executer.id) {
         Response = new MessageEmbed()
@@ -33,7 +33,7 @@ module.exports = {
         .setDescription("⛔ You cant kiss yourself! But is you ok? Do you need to vent?")
             return interaction.reply({ embeds: [Response] })
         } else {
-        interaction.reply({ embeds: [HugEmbed]}); 
+        interaction.reply({ embeds: [kissEmbed]}); 
         }
     }
 }

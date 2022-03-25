@@ -49,5 +49,10 @@ const data = await rga.getGif('bite');
 `Tickle`
 ##### Full documentation: https://api.satou-chan.xyz/
 ## 👨🏼‍💻 | Examples
-<p> Here I am using <code>Slash Commands</code>, displaying the Gif in an <code>Embed</code> and using the <code>cuddle</code> Endpoint from the Package:</p>
-![Cuddle Command Example](
+<p> Here I am using <code>Slash Commands</code>, displaying the Gif in an <code>Embed</code>:</p>
+
+[Example 1](https://github.com/yungbeatz/Affection-Commands-D.JS-V13-/blob/main/examples/example.js)
+
+[Example 2](https://github.com/yungbeatz/Affection-Commands-D.JS-V13-/blob/main/examples/example.js)
+
+[Example 3](https://github.com/yungbeatz/Affection-Commands-D.JS-V13-/blob/main/examples/example.js)

@@ -51,8 +51,8 @@ const data = await rga.getGif('bite'); //'bite' can be changed to the following 
 ## 👨🏼‍💻 | Examples
 <p> Here I am using <code>Slash Commands</code> and displaying the Gif in an <code>Embed</code>:</p>
 
-[Example 1](https://github.com/yungbeatz/Affection-Commands-D.JS-V13-/blob/main/examples/example.js)
+[Example 1](https://github.com/yungbeatz/Affection-Commands-D.JS-V13-/blob/main/examples/example1.js)
 
-[Example 2](https://github.com/yungbeatz/Affection-Commands-D.JS-V13-/blob/main/examples/example.js)
+[Example 2](https://github.com/yungbeatz/Affection-Commands-D.JS-V13-/blob/main/examples/example2.js)
 
-[Example 3](https://github.com/yungbeatz/Affection-Commands-D.JS-V13-/blob/main/examples/example.js)
+[Example 3](https://github.com/yungbeatz/Affection-Commands-D.JS-V13-/blob/main/examples/example3.js)

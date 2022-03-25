@@ -17,10 +17,10 @@ module.exports = {
         }
     ],
     async execute(interaction) {
-        let Target = interaction.options.getMember("member");
-        let Executer = interaction.user;
-        let data = await rga.getGif('kiss');
-        let kissEmbed = new MessageEmbed()
+        const Target = interaction.options.getMember("member");
+        const Executer = interaction.user;
+        const data = await rga.getGif('kiss');
+        const kissEmbed = new MessageEmbed()
         .setColor('#000000')
         .setDescription(`**${Executer} kisses ${Target}**`)
         .setImage(data)

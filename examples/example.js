@@ -1,6 +1,5 @@
 const { MessageEmbed } = require("discord.js");
 const rga = require("random-gif-api")
-const fetch = require('node-fetch');
 
 
 
@@ -27,7 +26,7 @@ module.exports = {
         .setImage(data)
         .setTimestamp()
 
-        console.log(data);
+    console.log(data); // this isnt mandatory btw.
       
        if(Target.id === Executer.id) {
         Response = new MessageEmbed()

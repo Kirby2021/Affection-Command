@@ -16,7 +16,7 @@ const rga = require("random-gif-api")
 `3.)` <p> Getting the Gifs</p>
 ```js
 const data = async() => {
-const data = await rga.getGif('bite');
+const data = await rga.getGif('bite'); //'bite' can be changed to the following keywords below:
   }
 ```
 ## ❓ | What kind of Gifs are there?
@@ -49,7 +49,7 @@ const data = await rga.getGif('bite');
 `Tickle`
 ##### Full documentation: https://api.satou-chan.xyz/
 ## 👨🏼‍💻 | Examples
-<p> Here I am using <code>Slash Commands</code>, displaying the Gif in an <code>Embed</code>:</p>
+<p> Here I am using <code>Slash Commands</code> and displaying the Gif in an <code>Embed</code>:</p>
 
 [Example 1](https://github.com/yungbeatz/Affection-Commands-D.JS-V13-/blob/main/examples/example.js)
 
